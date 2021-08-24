@@ -1,0 +1,94 @@
+	
+
+Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. ... Git is free and open-source software distributed under GNU General Public License Version 2.
+Repository: git.kernel.org/pub/scm/git/git.git
+Operating system: POSIX (Linux, macOS, Sola...
+Original author(s): Linus Torvalds
+
+Git is a DevOps tool used for source code managementIt is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
+
+A number of Git GUI clients for a variety of operating systems, including Android, iOS, Mac, Linux, and Windows are available today. These would help in integrating a variety of features that would help you to work with ease along with your team on any project.
+
+Git is one of the best and most preferred version control system (VCS) available. Many projects implement Git repositories for storing and managing codes, regardless of whether it for a big enterprise or a small-scale project. With Git, it becomes easy to code and offer exciting integration features, which would help you to work with ease on any project or along with any teams.
+
+Git comes with some of its tools like Git Bash, Git GUI to provide the interface between machine and user. It supports inbuilt as well as third-party tools. Git comes with built-in GUI tools like git bash, git-gui, and gitk for committing and browsing.
+
+PoshGit will let you use Windows and Power Shell commands with Git at the command line, while Git Bash will let you use MinGW/Linux tools with Git at the command line.
+
+Top 15 Version Control Software Tools
+#1) Git
+#2) CVS
+#3) SVN
+#4) Mercurial
+#5) Monotone
+#6) Bazaar
+#7) TFS
+#8) VSTS
+#9) Perforce Helix Core 
+#10) IBM Rational ClearCase
+#11) Revision Control System 
+#12) Visual SourceSafe(VSS) 
+#13) CA Harvest Software Change Manager
+#14) PVCS 
+#15) darcs 
+
+
+Centralized Version Control Systems
+The next major issue that people encounter is that they need to collaborate with developers on
+other systems. To deal with this problem, Centralized Version Control Systems (CVCSs) were
+developed. These systems (such as CVS, Subversion, and Perforce) have a single server that contains
+all the versioned files, and a number of clients that check out files from that central place. For
+many years, this has been the standard for version control.
+
+This setup offers many advantages, especially over local VCSs. For example, everyone knows to a
+certain degree what everyone else on the project is doing. Administrators have fine-grained control
+over who can do what, and it’s far easier to administer a CVCS than it is to deal with local databases
+on every client.
+
+However, this setup also has some serious downsides. The most obvious is the single point of failure
+that the centralized server represents. If that server goes down for an hour, then during that hour
+nobody can collaborate at all or save versioned changes to anything they’re working on. If the hard
+disk the central database is on becomes corrupted, and proper backups haven’t been kept, you lose
+absolutely everything — the entire history of the project except whatever single snapshots people
+happen to have on their local machines. Local VCSs suffer from this same problem — whenever you
+have the entire history of the project in a single place, you risk losing everything.
+
+
+Distributed Version Control Systems
+This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (such as Git, Mercurial,
+Bazaar or Darcs), clients don’t just check out the latest snapshot of the files; rather, they fully
+mirror the repository, including its full history. Thus, if any server dies, and these systems were
+collaborating via that server, any of the client repositories can be copied back up to the server to
+restore it. Every clone is really a full backup of all the data.
+
+Since its birth in 2005, Git has evolved and matured to be easy to use and yet retain these initial
+qualities. It’s amazingly fast, it’s very efficient with large projects, and it has an incredible
+branching system for non-linear development (See Git Branching).
+
+
+Snapshots, Not Differences
+Nearly Every Operation Is Local
+Git Has Integrity
+Git Generally Only Adds Data
+The Three States
+
+
+Git Reset
+If you do find yourself in the situation where you’ve accidentally committed some messy code, you can do a “soft” reset. This means that the code appears as if it has not been committed yet. Then you can tidy up your code in your IDE before making a cleaner commit. To do this you can run git reset --soft HEAD~1. This will reset the most recent commit. You can reset back more than one commit by changing the number after ~ e.g. git reset --soft HEAD~2.
+git reset --soft HEAD~1
+
+Git Stash
+Git stash enables you to save your code without making a commit. How is this useful? Picture the following scenario:
+
+You’ve already made three neat and tidy commits, but you also have some uncommitted code that’s quite messy; you won’t want to commit it without removing your debugging code first. Then, for some reason, you suddenly need to attend to another task and have to switch branches. This can often happen if you are on your main branch, and you have forgotten to create a new branch for your feature. Right now, your code looks like this:
+
+Git Bisect
+git bisect essentially performs a binary search between two given commits and then presents you with a specific commit’s details. You first need to give Git a good commit, where you know your functionality was working, and a bad commit. Note that as long as you have one good commit and one bad, the commits can be years apart (although the farther back in time you go, the more difficult it becomes!).
+
+
+Sai Shanmukh Srinivas R
+
+Docker certified
+Certified Kubernetes Administrator
+
+github.com/orgs/devopsschool-demo-temporary/dashboard
