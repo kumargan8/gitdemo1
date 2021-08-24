@@ -5,6 +5,8 @@ Repository: git.kernel.org/pub/scm/git/git.git
 Operating system: POSIX (Linux, macOS, Sola...
 Original author(s): Linus Torvalds
 
+Original author(s): Linus Torvalds
+
 Git is a DevOps tool used for source code managementIt is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
 
 A number of Git GUI clients for a variety of operating systems, including Android, iOS, Mac, Linux, and Windows are available today. These would help in integrating a variety of features that would help you to work with ease along with your team on any project.
